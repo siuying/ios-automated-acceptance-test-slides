@@ -1,0 +1,46 @@
+/* The Yanone-Kaffeesatz font is Yanone's http://www.yanone.de/ */
+@font-face {
+   font-family: YanoneKaffeesatz;
+   src: url("fonts/YanoneKaffeesatz-Regular.ttf") format("truetype");
+}
+@font-face {
+   font-family: YanoneKaffeesatz;
+   src: url("fonts/YanoneKaffeesatz-Bold.ttf") format("truetype");
+   font-weight: bold;
+}
+
+/* Overall Style */
+.slide {
+  background: #fff;
+  color: #000;
+}
+
+#preso {
+  font-family: YanoneKaffeesatz, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 8em;
+}
+
+h2 {
+  font-size: 6em;
+}
+
+code {
+  font-size: 0.65em;
+}
+
+.content > p.huge {
+  font-size: 18em;
+  line-height: 1em;
+}
+
+.content > p.bigger {
+  font-size: 12em;
+  line-height: 0.8em;
+}
+
+.ign {
+  color: #FE6500;
+}
