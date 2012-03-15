@@ -41,6 +41,36 @@ code {
   line-height: 0.8em;
 }
 
-.ign {
-  color: #FE6500;
+/* full-page-image */
+
+.full-page-image img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.full-page-image p:not(:first-child),
+.full-page-image h1,
+.full-page-image h2 {
+  z-index: 1;
+  background-color:rgba(255,255,255,0.5);
+  background-position: top left;
+}
+
+.full-page-image h1 {
+  position: absolute;
+  top: 0em;
+  left: 0px;
+  width: 100%;
+  padding: 0.3em 0 0.2em 0;
+  text-transform: uppercase;
+}
+
+.full-page-image h2 {
+  position: absolute;
+  top: 4em;
+  left: 0px;
+  width: 100%;
+  padding: 0.1em 0 0.3em 0;
 }

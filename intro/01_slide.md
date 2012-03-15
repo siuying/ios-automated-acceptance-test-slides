@@ -8,6 +8,7 @@
 
 * Test
 * Cucumber
+* UISpec
 * Frank
 * Demo
 
