@@ -10,15 +10,24 @@
 !SLIDE
 # How It Works #
 
-!SLIDE
+!SLIDE small
 ## 1. UISpec ##
 ### Query and validate ###
 
     @@@ c
-    -(void)itShouldNotAddAnInvalidUser {
-      [app.tableViewCell touch];
-      [app.label.should.have text@"User Profile"];
+    -(void)itShouldAddAUser {
+      [app.navigationButton touch];
+
+      [[app.textField placeholder:@"Username"] setText:@"bkuser"];
+      [[app.textField placeholder:@"Password"] setText:@"test"];
+      [[app.textField placeholder:@"Confirm"] setText:@"test"];
+        
+      [[app.navigationButton.label text:@"Save"] touch];
+      [app timeout:1].alertView.should.not.exist;
+
+      [[app.tableView.label text:@"Brian Knorr"] should].exist;
     }
+
 
 !SLIDE full-page-image
 ## 2. Embedded web server ##
