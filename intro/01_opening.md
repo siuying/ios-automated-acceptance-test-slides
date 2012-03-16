@@ -15,6 +15,12 @@
 .huge Test
 
 !SLIDE
-![](dont_test.png)
+# Software
+
+!SLIDE full-page-image clear-header
+![](sdlc.svg)
+
+## SDLC
 
 !SLIDE
+![](dont_test.png)

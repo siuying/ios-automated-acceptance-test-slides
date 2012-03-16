@@ -1,8 +1,8 @@
-!SLIDE full-page-image
-![frankenstein](image_frankenstein.jpg)
-
 !SLIDE
 .huge Frank
+
+!SLIDE full-page-image
+![frankenstein](image_frankenstein.jpg)
 
 !SLIDE
 # Work by <br>stick many <br>pieces together #
@@ -49,7 +49,7 @@
         Then I see "123" on display
         
 !SLIDE incremental
-## Frank Features
+## Why Frank?
 - Use Ruby and Cucumber
 - Record Video
 - Integrates with CI
