@@ -4,8 +4,11 @@
 
 !SLIDE
 
+# About this Talk
+
 - Slides [ios-acceptance-test.heroku.com](http://ios-acceptance-test.heroku.com/)
-- XCode Project [github.com/siuying/frank-demo-calculator](https://github.com/siuying/frank-demo-calculator) 
+- Slides Source [github.com/siuying/ios-automated-acceptance-test-slides](https://github.com/siuying/ios-automated-acceptance-test-slides)
+- XCode Project [github.com/siuying/frank-demo-calculator](https://github.com/siuying/frank-demo-calculator)
 
 !SLIDE
 
