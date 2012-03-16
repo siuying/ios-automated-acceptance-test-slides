@@ -5,7 +5,7 @@
 # Frank #
 
 !SLIDE
-# Work by stich many pieces together #
+# Work by stick many pieces together #
 
 !SLIDE
 ## How It Works ##
@@ -17,8 +17,8 @@
 ## 2. Embedded web server ##
 
 !SLIDE
-## 3. Driver - frank-cucumber ##
-### Frankly - over HTTP ###
+## 3. Driver: frank-cucumber ##
+### Frankly - Protocol over HTTP ###
 
 !SLIDE
 ## 4. Executable test in cucumber ##
