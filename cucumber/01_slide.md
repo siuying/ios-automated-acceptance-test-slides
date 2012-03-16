@@ -1,5 +1,6 @@
-!SLIDE huge
-# Cucumber #
+!SLIDE
+#  Cucumber #
+## http://cukes.info/ ##
 
 !SLIDE
-## What is Cucumber? ##
+## a Ruby BDD Framework ##

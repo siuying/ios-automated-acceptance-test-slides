@@ -1,4 +1,4 @@
-!SLIDE
+!SLIDE small
 ## 1. Describe Your Software ##
 
     @@@ ruby
@@ -82,11 +82,6 @@
         When I press "2" button
         When I press "3" button
         Then I see "123" on display
-
-!SLIDE
-
-#  Cucumber #
-## http://cukes.info/ ##
 
 !SLIDE
 

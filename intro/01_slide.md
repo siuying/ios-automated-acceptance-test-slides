@@ -7,13 +7,12 @@
 # Agenda #
 
 * Test
-* Cucumber
-* UISpec
 * Frank
+* Cucumber
 * Demo
 
 !SLIDE
-# Test #
+.huge Test
 
 !SLIDE
 ![](dont_test.png)
