@@ -2,7 +2,7 @@
 # Acceptance Test
 
 !SLIDE
-## Traditionally ...
+## a typical iOS acceptance test
 
 !SLIDE full-page-image
 ![](iphone4.jpg)
@@ -28,6 +28,13 @@
 
 !SLIDE full-page-image
 ![](testplan.png)
+
+!SLIDE 
+## Repeat this 10~100 times
+
+!SLIDE
+## For each release
+![](horror.png)
 
 !SLIDE
 ![](thoughtful.png)

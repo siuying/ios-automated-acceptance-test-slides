@@ -85,8 +85,4 @@
 
 !SLIDE
 
-.bigger but
-
-!SLIDE
-
-.bigger what about iOS?
+.bigger Demo

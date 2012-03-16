@@ -11,10 +11,7 @@
 # How It Works #
 
 !SLIDE
-## 1. iOS Accessibility ##
-
-!SLIDE
-## 2. UISpec ##
+## 1. UISpec ##
 ### Query and validate ###
 
     @@@ c
@@ -24,15 +21,15 @@
     }
 
 !SLIDE full-page-image
-## 3. Embedded web server ##
+## 2. Embedded web server ##
 ![](symbiote.png)
 
 !SLIDE full-page-image
-## 4. Driver (frank-cucumber) ##
-![](cucumber.png)
+# 3. Driver (frank-cucumber) #
+## Control iOS from Ruby ##
 
 !SLIDE small
-## 5. Executable test in cucumber ##
+## 4. Executable test in cucumber ##
 
     @@@ ruby
     Feature: 

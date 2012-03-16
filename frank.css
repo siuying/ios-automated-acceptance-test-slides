@@ -3,3 +3,8 @@
 .ign {
   color: #FE6500;
 }
+
+.quote blockquote {
+  color: #555555;
+  font-size: 5em;
+}
