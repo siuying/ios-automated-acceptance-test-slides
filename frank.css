@@ -8,3 +8,23 @@
   color: #555555;
   font-size: 5em;
 }
+
+.content ul li {
+  font-size: 1.3em;
+  line-height: 1em;
+}
+
+.slide .content.left {
+  display: block !important;
+	margin-top: auto !important;
+}
+
+/* always center vertically */
+.slide > .slide .content {
+  box-align: center;
+	-moz-box-align: center;
+	-webkit-box-align: center;
+  box-pack: center;
+	-moz-box-pack: center;
+	-webkit-box-pack: center;
+}

@@ -39,6 +39,10 @@ code {
   font-size: 0.65em;
 }
 
+a, a:visited {
+  color: #FE6500;
+}
+
 .content > p.huge {
   font-size: 18em;
   line-height: 1em;
@@ -85,4 +89,24 @@ code {
 
 .full-page-image.clear-header h1, .full-page-image.clear-header h2 {
   background-color:rgba(255,255,255,0);
+}
+
+.slide > .slide .content {
+  display: box !important;
+  display: -moz-box  !important;  
+  display: -webkit-box !important;
+  box-orient: vertical;
+	-moz-box-orient: vertical;
+	-webkit-box-orient: vertical;
+	width: 100%;
+	height: 100%;
+}
+
+.slide > .slide .center {
+  box-align: center;
+	-moz-box-align: center;
+	-webkit-box-align: center;
+  box-pack: center;
+	-moz-box-pack: center;
+	-webkit-box-pack: center;
 }
