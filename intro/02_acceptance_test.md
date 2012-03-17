@@ -43,7 +43,7 @@
 !SLIDE
 .bigger Automation
 
-!SLIDE incremental
+!SLIDE left incremental
 ## iOS Automated Test Tools
 
 - UIAutomation (javascript)

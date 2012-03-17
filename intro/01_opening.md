@@ -3,7 +3,7 @@
 
 ### Francis Chong @ Ignition Soft
 
-!SLIDE
+!SLIDE left
 # Agenda #
 
 * Test
@@ -27,10 +27,12 @@
 ## Have You Tested?
 
 !SLIDE
-![](dont_test.png)
+![](dont_test.png)  
+[troll me](http://troll.me/i-dont-always-test-my-code-but-when-i-do-i-do-it-in-production/)
 
 !SLIDE full-page-image clear-header
 ![](sdlc.svg)
+[Wikipedia SDLC](http://en.wikipedia.org/wiki/Systems_Development_Life_Cycle)
 
 ## SDLC
 
@@ -44,14 +46,14 @@
 !SLIDE
 ## Many Kind of Tests
 
-!SLIDE
+!SLIDE left
 ## Functional Test
   - Unit test
   - Integration test
   - System Integration test
   - Acceptance test
 
-!SLIDE
+!SLIDE left
 ## Non-Functional Test
   - Performan test
   - Usability test

@@ -4,6 +4,10 @@
   color: #FE6500;
 }
 
+.smaller {
+  font-size: 1em;
+}
+
 .quote blockquote {
   color: #555555;
   font-size: 5em;

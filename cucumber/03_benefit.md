@@ -31,3 +31,6 @@
         When I press "2" button
         When I press "3" button
         Then I see "123" on display
+        
+!SLIDE
+# [cukes.info](http://cukes.info/)

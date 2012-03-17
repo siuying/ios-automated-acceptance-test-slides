@@ -2,7 +2,7 @@
 
 .bigger Demo
 
-!SLIDE
+!SLIDE left
 
 # About this Talk
 
@@ -10,7 +10,7 @@
 - Slides Source [github.com/siuying/ios-automated-acceptance-test-slides](https://github.com/siuying/ios-automated-acceptance-test-slides)
 - XCode Project [github.com/siuying/frank-demo-calculator](https://github.com/siuying/frank-demo-calculator)
 
-!SLIDE
+!SLIDE left
 
 # Contact
 

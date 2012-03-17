@@ -1,3 +1,2 @@
 !SLIDE
-#  Cucumber #
-## http://cukes.info/ ##
+.bigger Cucumber

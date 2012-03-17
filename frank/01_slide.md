@@ -1,5 +1,5 @@
 !SLIDE
-.huge Frank
+.huge Frank  
 
 !SLIDE full-page-image
 ![frankenstein](image_frankenstein.jpg)
@@ -54,10 +54,12 @@
         When I press "3" button
         Then I see "123" on display
         
-!SLIDE incremental
+!SLIDE left incremental
 ## Why Frank?
 - Use Ruby and Cucumber
 - Record Video
 - Integrates with CI
 - Great Community
 
+!SLIDE
+# [testingwithfrank.com](http://www.testingwithfrank.com/)

@@ -1,4 +1,4 @@
-!SLIDE small
+!SLIDE small left
 ## 1. Describe Your Software ##
 
     @@@ ruby
@@ -15,7 +15,7 @@
         When I press "3" button
         Then I see "123" on display
 
-!SLIDE
+!SLIDE left
 ## 2. Write Steps in Ruby ##
     
     @@@ ruby
@@ -27,7 +27,7 @@
       calculator.display.should == number
     end
 
-!SLIDE small
+!SLIDE small left
 ## 3. Run and Watch it Fail ##
 
     @@@ ruby
@@ -43,7 +43,7 @@
         got: "" (using ==) (RSpec::Expectations::ExpectationNotMetError)
 
 
-!SLIDE
+!SLIDE left
 ## 4. Write code to make it pass ##
     
     @@@ ruby
@@ -54,7 +54,7 @@
       end
     end
 
-!SLIDE small
+!SLIDE small left
 ## 5. Run again and see it pass ##
 
     @@@ ruby
@@ -67,7 +67,7 @@
         When I press "3" button
         Then I see "123" on the display
 
-!SLIDE
+!SLIDE left
 ## 6. Go to step #1 and start again
 
 (write more features!)
