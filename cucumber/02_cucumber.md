@@ -23,28 +23,49 @@
       calculator.press(name)
     end
 
-!SLIDE
+    Then /^I see "([^"]*)" on the display$/ do |number|
+      calculator.display.should == number
+    end
+
+!SLIDE small
 ## 3. Run and Watch it Fail ##
 
     @@@ ruby
     $ cucumber
+    ...
+    Scenario: Input Number
+      Given I launch the app
+      When I press "1" button
+      When I press "2" button
+      When I press "3" button
+      Then I see "123" on the display
+        expected: "123"
+        got: "" (using ==) (RSpec::Expectations::ExpectationNotMetError)
+
 
 !SLIDE
 ## 4. Write code to make it pass ##
     
     @@@ ruby
     class Calculator
+      attr_accessor :display
       def press(number)
         @display << number
       end
     end
 
-!SLIDE
+!SLIDE small
 ## 5. Run again and see it pass ##
 
     @@@ ruby
     $ cucumber
-
+    ...
+      Scenario: Input Number
+        Given I launch the app
+        When I press "1" button
+        When I press "2" button
+        When I press "3" button
+        Then I see "123" on the display
 
 !SLIDE
 ## 6. Go to step #1 and start again
